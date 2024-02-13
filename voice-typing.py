@@ -1,10 +1,15 @@
+from pathlib import Path  # Import module to get system paths
+
 import keyboard  # Import module to handle keyboard inputs
 import speech_recognition as sr  # Import module for speech recognition
 import whisper  # Import module for transcribing audio
 
+# Path to save Whisper models
+download_path = Path() / 'whisper_models'
+
 # Define the Whisper model to be used
 # Available models and their sizes can be found here: https://github.com/openai/whisper
-whisper_model = whisper.load_model("base.en")
+whisper_model = whisper.load_model("base.en", download_root=download_path)
 
 # Initialize a speech recognizer object
 recognizer = sr.Recognizer()
