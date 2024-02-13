@@ -28,6 +28,13 @@
 5. Run the script: `python voice_typing.py`
 6. Press and release the Ctrl+Space keys to start recording. Recording will automatically stop when no speech is detected for 2 seconds.
 
+**How to use Whisper with CUDA**
+
+1. Uninstall PyTorch using the command: `pip uninstall torch torchaudio torchvision`
+2. Go to the PyTorch website: [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+3. Select the installation option with CUDA support.
+4. Follow the on-screen instructions to install PyTorch.
+
 **Notes:**
 
 * Adjust the `delay` value in the `keyboard.write` function if the typing causes performance issues.
