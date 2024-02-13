@@ -26,7 +26,7 @@
 2. Install ffmpeg: Follow the instructions for your platform (https://ffmpeg.org/download.html).
 3. Select the Whisper model to download automatically. The default is "base.en".
 5. Run the script: `python voice_typing.py`
-6. Press and release the Ctrl+Space keys to start recording. Recording will automatically stop when no speech is detected for 1 seconds.
+6. Press and release the Ctrl+Space keys to start recording. Recording will automatically stop when no speech is detected for 1 second.
 
 **How to use Whisper with CUDA**
 
