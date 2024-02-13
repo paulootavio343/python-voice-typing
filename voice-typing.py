@@ -25,7 +25,7 @@ with sr.Microphone() as mic:
     # Enter an infinite loop to continuously transcribe audio
     while True:
         print('Standby...')  # Indicate waiting state
-        keyboard.wait('ctrl')  # Wait for user to press Ctrl key
+        keyboard.wait('ctrl+space')  # Wait for user to press Ctrl+Space keys
 
         # Try to recognize speech from the microphone for 2 seconds
         try:

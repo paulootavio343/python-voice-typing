@@ -14,8 +14,8 @@
 
 **How it works:**
 
-1. **Continuous listening:** The program constantly waits for the user to press the Ctrl key.
-2. **Speech recognition:** When the key is pressed, it listens to the microphone for 2 seconds and tries to recognize the spoken words.
+1. **Continuous listening:** The program constantly waits for the user to press the Ctrl+Space keys.
+2. **Speech recognition:** When the keys are pressed, it listens to the microphone for 2 seconds and tries to recognize the spoken words.
 3. **Audio recording:** If speech is detected, the recognized audio is saved as a WAV file.
 4. **Transcription:** The WAV file is transcribed using the Whisper model provided.
 5. **Text typing:** If transcription is successful, the recognized text is typed character by character with a slight delay.
@@ -26,7 +26,7 @@
 2. Install ffmpeg: Follow the instructions for your platform (https://ffmpeg.org/download.html).
 3. Select the Whisper model to download automatically. The default is "base.en".
 5. Run the script: `python voice_typing.py`
-6. Press and release the Ctrl key to start recording. Recording will automatically stop when no speech is detected for 2 seconds.
+6. Press and release the Ctrl+Space keys to start recording. Recording will automatically stop when no speech is detected for 2 seconds.
 
 **Notes:**
 
