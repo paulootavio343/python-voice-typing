@@ -1,4 +1,5 @@
 ## Voice Typing Tool with Python
+This project allows you to perform voice typing using Python, the keyboard library, SpeechRecognition, and Whisper from OpenAI.
 
 **Dependencies:**
 
